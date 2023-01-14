@@ -2,6 +2,7 @@
 Netflix-Movies-and-TV-Shows-Clustering
 
 ## *Project Name: Netflix Movies and TV Shows Clustering*
+![image](https://user-images.githubusercontent.com/113257700/212488591-29487991-7208-41be-a752-41f9459de2e9.png)
 
 In this project dataset consists of tv shows and movies available on Netflix as of 2019.The aim of this project is to find clusters.In this project, required to do: (1)Exploratory Data Analysis, (2) Understanding what type content is available in different countries, (3) Is Netflix has increasingly focusing on TV rather than movies in recent years, (4) Clustering similar content by matching text-based features.
 
