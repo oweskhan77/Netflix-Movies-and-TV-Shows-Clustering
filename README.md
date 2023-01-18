@@ -31,4 +31,17 @@ duration : Total Duration - in minutes or number of seasons
 listed_in : Genere
 
 description: The Summary description
+## **Conclusion**
+I have successfully implemented Unsupervised Machine learning algorithm where I have clustered the data on Netflix dataset and divided the dataset into seven clusters.
+
+From elbow,sillhoute score and Dendrogram , discovered that Optimal number of clusters are 7.
+Netflix has 5377 movies and 2410 TV shows, there are more number movies on Netflix than TV shows.
+Highest number of movies released in 2020 The number of movies on Netflix is growing significantly faster than the number of TV shows. I saw a huge increase in the number of movies and television episodes after 2015. there is a significant drop in the number of movies and television episodes produced after 2020. It appears that Netflix has focused more attention on increasing Movie content than TV Shows. Movies have increased much more dramatically than TV shows.
+International Movies are the top most genre in netflix, followed by Dramas, comedies and international movies.
+Most of the movies have duration of between 70 to 150.
+Unitated states has the highest number of content on the netflix ,followed by india.
+TV-MA has the highest number of ratings for tv shows. It means that Majority of Content is for Adults.
+Through TFIDF Vectorization, I created a total of 20000 attributes.
+I used Principal Component Analysis (PCA) to handle the curse of dimensionality. 3500 components were able to capture more than 80% of variance, and hence, the number of components were restricted to 3500.
+Using the given data a simple recommender system was created using cosine_similarity and recommendations for Movies and Tv Shows were obtained.
 
